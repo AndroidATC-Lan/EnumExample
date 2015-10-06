@@ -4,7 +4,8 @@ public enum Cores {
 	VERMELHO(255,0,0),
 	AZUL(0,0,255),
 	VERDE(0,128,128),
-	LARANJA(128,128,0);
+	LARANJA(128,128,0),
+	ROSA(10, 20, 30);
 	
 	private int vermelho;
 	private int azul;

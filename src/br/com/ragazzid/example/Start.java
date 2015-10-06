@@ -14,8 +14,16 @@ public class Start {
 		Cores cor2 = Cores.VERMELHO;
 		System.out.printf("Name: %s\n", cor2);
 		System.out.printf("Position: %s\n", cor2.ordinal());
-		System.out.printf("String: %s\n", cor2.toString());
 		System.out.printf("Valor: %s\n", cor2.valores());
+		System.out.printf("String: %s\n", cor2.toString());
+		
+		
+		System.out.println("------------------------------");
+		Cores cor3 = Cores.ROSA;
+        System.out.printf("Name: %s\n", cor3);
+        System.out.printf("Position: %s\n", cor3.ordinal());
+        System.out.printf("String: %s\n", cor3.toString());
+        System.out.printf("Valor: %s\n", cor2.valores());
 		
 
 	}
